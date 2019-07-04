@@ -1,0 +1,43 @@
+//查找触发事件的元素,并且为该元素绑定事件处理函数
+$(".logon").click(function(){
+//创建正则表达式
+ var sjh=/^1[3-8]\d{9}$/
+ var upw=/^[a-zA-Z0-9.]{8,30}$/
+//查找需要修改的元素,获取该元素的value值
+ var put1= $("#put1").val()
+ var upw1= $("#upw1").val()
+//   if(!put1){ //如果元素内容为空,则显示提示框
+// $(".user").css("display","block")
+//   }
+  //如果元素内容不符合正则时,则关闭第一个提示框,开第二个提示框
+  if(!put1){
+    $(".user").css("display","block")
+     $(".upwd").css("display","none")
+  }else if(sjh.test(put1)!==true&&put1){
+    $(".user").css("display","none")
+    $(".user2").css("display","block")
+  }else if(!upw1){ //只有在账户为空,且正则表达式满足条件时,执行以下代码.
+    $(".upwd").css("display","block")
+    $(".user").css("display","none")
+  }else if(upw.test(upw1)!==true&&upw1){
+    $(".upwd").css("display","none")
+    $(".upwd1").css("display","block")
+  }
+
+})
+//当内容获取焦点时,则关闭提示框
+$(".input_blur").focus(function(){
+  $(".user").css("display","none")
+  $(".user2").css("display","none")
+
+  $(".upwd").css("display","none")
+  $(".upwd1").css("display","none")
+})
+
+// $("#put1").blur(function(){
+//      $(".user2").css("display","none")
+//      $(".user").css("display","none")
+//  })
+
+ 
+

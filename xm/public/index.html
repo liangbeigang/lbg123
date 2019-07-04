@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>快看漫画</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="js/jquery-1.11.3.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid p-0">
+            <!--首页导航栏-->
+
+            <div class="my_a1">
+                <a href="#">
+                    <img src="img/shouye.png" alt="" />
+                </a>
+                <ul class="my_dhl nav p-0 m-0 ">
+                    <li class="nav-item my_sy">
+                        <a href="#" class="nav-link">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index_FL.html" class="nav-link">分类</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index_pxb.html" class="nav-link">排行榜</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="APP.html" class="nav-link">APP下载</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">我要投稿</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">动漫</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">游戏中心</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">
+                            <img src="img/2.png" alt="" /> 条漫大赛
+                        </a>
+                    </li>
+                    <li class="my_text">
+                        <input type="text" placeholder="搜索作品、作者名" />
+                        <a href="#">
+                            <img class="my_ssk" src="img/ssk.png" alt="" />
+                        </a>
+                    </li>
+                    <li class="my_logon pr-3">
+                        <a href="logon.html">登录</a>
+                        <span>|</span>
+                        <a href="register.html">注册</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--首页部分轮播图-->
+        <div>
+            <div id="demo" class="carousel my_lbt" data-ride="carousel">
+                <div class="carousel-inner" id='lun1'>
+                    <div class="carousel-item active dx">
+                        <a href="#">
+                            <img src="img/lbt1.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="carousel-item dx">
+                        <a href="#">
+                            <img src="img/lbt2.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="carousel-item dx">
+                        <a href="#">
+                            <img src="img/lbt3.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="carousel-item dx">
+                        <a href="#">
+                            <img src="img/lbt4.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="carousel-item dx">
+                        <a href="#">
+                            <img src="img/lbt5.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="carousel-item dx">
+                        <a href="#">
+                            <img src="img/lbt6.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active">花与隐匿之乌</li>
+                    <li data-target="#demo" data-slide-to="1">穿越西元3000后</li>
+                    <li data-target="#demo" data-slide-to="2">超能立方</li>
+                    <li data-target="#demo" data-slide-to="3">王子与公主</li>
+                    <li data-target="#demo" data-slide-to="4">最温柔的人</li>
+                    <li data-target="#demo" data-slide-to="5">与子成契</li>
+                </ul>
+                <a href="#demo" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                <a href="#demo" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+            </div>
+        </div>
+        <!--下导航栏字体-->
+
+        <div class="my_xdh1">
+            <ul class="my_xdh2 nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">恋爱</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">古风</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">校园</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">奇幻</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">治愈</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">大女主</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">总裁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">完结</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">唯美</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">日漫</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">韩漫</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">穿越</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">正能量</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">灵异</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my_qb" href="#">全部<img src="img/qb.png" alt="" />
+                    </a></li>
+            </ul>
+        </div>
+        <!--1L每日推荐部分-->
+
+        <div class="my_f1 d-flex">
+            <div class="my_f2">
+                <div class="my_mrtj">
+                    <h3>每日推荐</h3>
+                </div>
+                <div class="my_f3 d-flex">
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f1.png" alt="" />
+                            <span style="background:#6f42c1" class="f1_tpzt">奇幻&nbsp;&nbsp;剧情</span>
+                    <p>天下无赖</p>
+                    </a>
+                    <p>鲸鱼合合&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f2.png" alt="" />
+                            <span style="background:springgreen" class="f1_tpzt">都市</span>
+                    <p>名流巨星</p>
+                    </a>
+                    <p>青罗扇子（原著）+雯雯&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f3.png" alt="" />
+                            <span style="background:darkolivegreen" class="f1_tpzt">完结</span>
+                    <p>消失恋人</p>
+                    </a>
+                    <p>凉藤&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f4.png" alt="" />
+                            <span style="background:aqua" class="f1_tpzt">剧情&nbsp;&nbsp;都市</span>
+                    <p>蜜糖陷阱-《感谢你是爱我的》系列4</p>
+                    </a>
+                    <p>路边张三&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f5.png" alt="" />
+                            <span style="background:dodgerblue" class="f1_tpzt">都市</span>
+                    <p>老婆大人有点冷</p>
+                    </a>
+                    <p>冬漫社&nbsp;&nbsp;13万</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f6.png" alt="" />
+                            <span style="background:navy">奇幻&nbsp;&nbsp;剧情</span>
+                    <p>社会瞄</p>
+                    </a>
+                    <p>工文工文&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f7.png" alt="" />
+                            <span style="background:skyblue">都市&nbsp;&nbsp;剧情</span>
+                    <p>心动计划</p>
+                    </a>
+                    <p>赤瞄瞄&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f8.jpg" alt="" />
+                            <span style="background:lawngreen">都市</span>
+                    <p>犬恶恋人</p>
+                    </a>
+                    <p>花絮漫画&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f9.jpg" alt="" />
+                            <span style="background:deeppink">日常&nbsp;&nbsp;治愈</span>
+                    <p>光合物欲</p>
+                    </a>
+                    <p>S-monkey猴子&nbsp;&nbsp;99万+</p>
+                    </span>
+                    <span class="my_padding">
+                        <a href="#">
+                            <img src="img/f10.jpg" alt="" />
+                            <span>古风</span>
+                    <p>增广贤文</p>
+                    </a>
+                    <p>圣代诗人&nbsp;&nbsp;100万+</p>
+                    </span>
+                </div>
+            </div>
+            <!--1L人气榜中间部分-->
+
+            <div class="f1_rqb">
+                <h3 class="title">人气榜</h3>
+                <div class="f1_padding p-0">
+                    <div class="d-flex">
+                        <div class="f1_right" id="d1">
+                            <a href="#">
+                                <img src="img/rqb1.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">1</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">甜美的咬痕</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2" id="d2">
+                                <span>奇幻</span>
+                            </div>
+                            <div class="f2_douci" id="d3">
+                                <span>多次登上每周排行榜第一名宝座!不可一世的血族王子,恋上卑…</span>
+                            </div>
+
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">守护篇 第24话 猜猜看?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb2.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">2</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">怦然心动</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>剧情&nbsp;&nbsp;治愈&nbsp;&nbsp;校园</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>少男少女同住一个屋檐下，一同历经青春的懵懂和烦恼。画风温馨…
+                                </span>
+                            </div>
+                            <div class="f2_lj">更新至&nbsp;&nbsp;
+                                <a href="#">第84话 捡到企鹅妈妈？！</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb3.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">3</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">捡到只小狐狸
+                                    </a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>奇幻萌系</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>第三季剧情简介：狐女小七被吸血鬼格雷格视作‘妻子转世’，被…</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">第三季 第1话 古堡之森</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb4.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">4</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">女巨人要谈恋爱</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>剧情都市</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>身高180+的软妹恋上冰山总裁。谁说女追男隔层纱？女巨人的甜虐…</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">停更通知</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb5.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">5</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">怪奇实录</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>剧情灵异惊悚</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>奇异事件！这些发生在你身边的故事，结局总是让人意想不到！中…</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">第194话 怪潭</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb6.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">6</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">零分偶像</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>完结都市</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>恋爱类总榜热度第一名少女漫！当红人气鲜肉被曝毕业证做假仅考…</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">完结篇 命运的那个人</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb7.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">7</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">我男票是锦衣卫</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>古风唯美穿越</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>人气古风穿越巨制，俏皮少女与傲娇锦衣卫的甜虐之恋.。上天注 …</span>
+                            </div>
+                            <div class="f2_lj">更新至:&nbsp;&nbsp;
+                                <a href="#">停更通知（内含情头）</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb8.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">8</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">整容游戏</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>奇幻大女主幻想</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>现象级超经典作品，在整容游戏App上美化自己的照片，现实中脸…</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">《狼的谎言》7月29日上线！</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb9.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">9</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">河神大人求收养</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>奇幻唯美</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>家中突然掉下一个奇怪的陌生美男自称河神！还求我收养他！？……</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">特别篇第15话 这是梦吗？</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="f1_right">
+                            <a href="#">
+                                <img src="img/rqb10.png" alt="">
+                            </a>
+                            <p class="f1_right_shuzi">10</p>
+                        </div>
+                        <div class="d_l">
+                            <div class="right_fr">
+                                <h5>
+                                    <a href="#">朝花惜时</a>
+                                </h5>
+                            </div>
+                            <div class="f1_qh1 mt-2">
+                                <span>校园</span>
+                            </div>
+                            <div class="f2_douci">
+                                <span>他，戴上眼镜是沉默冷峻的高中生，摘下眼镜是浪荡不羁的夜店王…</span>
+                            </div>
+                            <div class="f2_lj ">更新至:&nbsp;&nbsp;
+                                <a href="#">新作《成也萧河》即将上线</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--js效果-人气榜-->
+                <script>
+                    var divs = document.querySelector(".f1_padding").children;
+                    //var dl=document.querySelectorAll(".d_l"); 
+                    // for (var dl of dl){
+                    //     dl.style.display="flex";
+                    //     console.log(dl);
+                    // }
+                    // console.log(dl); 
+                    for (var div of divs) {
+                        // console.log(div);
+                        var d1, d2, d3, d4;
+
+                        function get(div) {
+                            d1 = div.querySelector(".f1_right");
+                            d2 = div.querySelector(".f1_qh1");
+                            d3 = div.querySelector(".f2_douci");
+                            d4 = div.querySelector(".d_l");
+                        }
+                        // console.log(div);
+                        if (div != document.querySelector(".f1_padding").children[0]) {
+                            get(div);
+                            d1.style.display = "none";
+                            d2.style.display = "none";
+                            d3.style.display = "none";
+                            d4.style.display = "flex";
+                        }
+                        div.onmouseout = function() {
+                            var div = this;
+                            //                          var d1=div.querySelector(".f1_right");
+                            //                             var d2=div.querySelector(".f1_qh1");
+                            //                          var d3=div.querySelector(".f2_douci");
+
+                            get(div);
+                            d1.style.display = "none";
+                            d2.style.display = "none";
+                            d3.style.display = "none";
+                            d4.style.display = "flex";
+                            (function() {
+                                get(document.querySelector(".f1_padding").children[0]);
+                                d1.style.display = "";
+                                d2.style.display = "";
+                                d3.style.display = "";
+                                d4.style.display = "";
+                            })()
+                        }
+                        div.onmouseover = function() {
+
+                            var div = this;
+                            if (this != document.querySelector(".f1_padding").children[0]) {
+                                get(div);
+                                d4.style.display = "flex";
+                                //     var d1=div.querySelector(".f1_right");
+                                //  var d2=div.querySelector(".f1_qh1");
+                                //  var d3=div.querySelector(".f2_douci");
+                                d1.style.display = "";
+                                d2.style.display = "";
+                                d3.style.display = "";
+                                d4.style.display = "";
+                                (function() {
+                                    get(document.querySelector(".f1_padding").children[0]);
+                                    d1.style.display = "none";
+                                    d2.style.display = "none";
+                                    d3.style.display = "none";
+                                    d4.style.display = "flex";
+                                })()
+                            }
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <!--2L 每天更新中间部分-->
+
+        <div class="f3_middle">
+            <div class="f3_cls d-flex">
+                <h3 class="f3_title">每天更新</h3>
+                <ul class="list-unstyled justify-content-between">
+                    <li><a style="color:gold" href="#">今天</a></li>
+                    <li><a href="#">昨天</a></li>
+                    <li><a href="#">周五</a></li>
+                    <li><a href="#">周四</a></li>
+                    <li><a href="#">周三</a></li>
+                    <li><a href="#">周二</a></li>
+                    <li><a href="#">周一</a></li>
+                </ul>
+            </div>
+            <div class="f3_pic">
+                <ul class="list-unstyled f3_pic_dx d-flex justify-content-between">
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom1.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">沈升</span>
+                                <span class="pr-3 f3_1 text-muted">剧情</span>
+                            </div>
+                            <p class="f3_2">通幽/夏天岛+叨叨君/夏天岛&nbsp; &nbsp;&nbsp;&nbsp;95万+浏览
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom2.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">无缝</span>
+                                <span class="pr-3 f3_1 text-muted">校园</span>
+                            </div>
+                            <p class="f3_2">小泽&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom3.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">塑料</span>
+                                <span class="pr-3 f3_1 text-muted">剧情</span>
+                            </div>
+                            <p class="f3_2">柯小&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom4.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">渐渐地心跳</span>
+                                <span class="pr-3 f3_1 text-muted">校园</span>
+                            </div>
+                            <p class="f3_2">橘志&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom5.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">艾薇</span>
+                                <span class="pr-3 f3_1 text-muted">剧情</span>
+                            </div>
+                            <p class="f3_2">通幽/夏天岛+叨叨君/夏天岛&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom6.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">爱情的样子</span>
+                                <span class="pr-3 f3_1 text-muted">剧情</span>
+                            </div>
+                            <p class="f3_2">路边张三&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom7.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">非人哉</span>
+                                <span class="pr-3 f3_1 text-muted">奇幻</span>
+                            </div>
+                            <p class="f3_2">通幽/夏天岛+叨叨君/夏天岛&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom8.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">沈升</span>
+                                <span class="pr-3 f3_1 text-muted">剧情</span>
+                            </div>
+                            <p class="f3_2">通幽/夏天岛+叨叨君/夏天岛&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom9.png" alt="" />
+                            <div class="d-flex justify-content-between pt-2">
+                                <span class="f3_1">降志小甜饼</span>
+                                <span class="pr-3 f3_1 text-muted">日常</span>
+                            </div>
+                            <p class="f3_2">爆青漫画&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/bottom10.png" alt="" />
+                            <div class="d-flex justify-content-between pt-1">
+                                <span class="f3_1">墨菲</span>
+                                <span class="pr-3 f3_1 text-muted">剧情</span>
+                            </div>
+                            <p class="f3_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--3L背景图-->
+
+        <div class="f4_bjt pb-5">
+            <a href="#">
+                <img src="img/f4_bjt.jpg" alt="" />
+            </a>
+        </div>
+        <!--4L底部部分-->
+        <div class="f5_bjt">
+            <div class="f5_bt">
+                <div class="f5_nr">
+                    <span class="f5_1">
+                        <a href="#">少女榜</a>
+                    </span>
+                    <span class="f5_2 pt-2">
+                        <a href="#">青年榜</a>
+                    </span>
+                    <span class="f5_2 pt-2">
+                        <a href="#">新作榜</a>
+                    </span>
+                    <a class="f5_3" href="">更多榜单</a>
+                </div>
+                <div class="f6_pic">
+                    <ul class="list-unstyled f6_pic_dx d-flex justify-content-between">
+                        <li>
+                            <a href="#">
+                                <img src="img/bd1.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">沈升</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+
+                                <p class="f6_2">通幽/夏天岛+叨叨君/夏天岛&nbsp; &nbsp;&nbsp;&nbsp;95万+浏览
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd2.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">无缝</span>
+                                    <span class="pr-3 f6_1 text-muted">校园</span>
+                                </div>
+                                <p class="f6_2">小泽&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd3.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">塑料</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">柯小&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd4.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">渐渐地心跳</span>
+                                    <span class="pr-3 f6_1 text-muted">校园</span>
+                                </div>
+                                <p class="f6_2">橘志&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd5.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">艾薇</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">通幽/夏天岛+叨叨君/夏天岛&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd6.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">爱情的样子</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">路边张三&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd7.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">非人哉</span>
+                                    <span class="pr-3 f3_1 text-muted">奇幻</span>
+                                </div>
+                                <p class="f6_2">通幽/夏天岛+叨叨君/夏天岛&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd8.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">沈升</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">通幽/夏天岛+叨叨君/夏天岛&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bd9.png" alt="" />
+                                <div class="d-flex justify-content-between pt-2">
+                                    <span class="f6_1">降志小甜饼</span>
+                                    <span class="pr-3 f6_1 text-muted">日常</span>
+                                </div>
+                                <p class="f6_2">爆青漫画&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/bottom10.png" alt="" />
+                                <div class="d-flex justify-content-between pt-1">
+                                    <span class="f6_1">墨菲</span>
+                                    <span class="pr-3 f6_1 text-muted">剧情</span>
+                                </div>
+                                <p class="f6_2">小掣军&nbsp;&nbsp;&nbsp;95万+浏览</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--尾部 footer-->
+    <div class="my_for">
+        <div class="my_for2">
+            <a href="#" class="my_wx">
+                <div class="my_ewm">
+                    <img src="img/erweima.png" alt="" />
+                </div>
+            </a>
+            <a href="#" class="my_wb"></a>
+            <div class="my_spx h-50">
+                <div class="my_zb">
+                    <div class="my_zb2 pt-4 ">
+                        <p>快看世界（北京）科技有限公司</p>
+                        <p>全部信息 快看漫画 版权所有 未经许可 严禁转载</p>
+                        <p>Copyright © 2019 kuaikanmanhua.com All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="my_yb">
+                    <ul class="list-unstyled d-flex justify-content-around">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">APP下载</a></li>
+                        <li><a href="#">关于快看</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">我要投稿</a></li>
+                    </ul>
+                    <ul class="list-unstyled d-flex justify-content-around">
+                        <li><a href="#">帮助FAQ</a></li>
+                        <li><a href="#">游戏中心</a></li>
+                        <li><a href="#">家长监护</a></li>
+                        <li><a href="#">用户协议</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="my_bottom">
+                <div>
+                    <a href="#">
+                        <img src="img/icon.png" alt="" />京公网安备11010502035069号
+                        <span>|</span>
+                    </a>
+                    <a href="#">
+                        京 ICP 备15052188号-2 <span>|</span>
+                    </a>
+                    <a href="#">
+                        网络文化经营许可证 京网文 [2016] 2280-262号
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        营业执照 <span>|</span>
+                    </a>
+                    <a href="#">
+                        营业性演出许可证 京演（机构）[2018]3702号<span>|</span>
+                    </a>
+                    <a href="#">
+                        出版物经营许可证 新出发京批字第直160194号 <span>|</span>
+                    </a>
+                    <a href="#">
+                        食品经营许可证 JY11105092072844
+                    </a>
+                </div>
+                <div>
+                    <a href="#">举报电话：010-58527324 <span>|</span></a>
+                    <a href="#">举报邮箱：jubaoyouxiang@kkworld.com </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

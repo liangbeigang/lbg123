@@ -1,0 +1,95 @@
+.container-fluid {
+    background: #282828;
+}
+
+.my_foote {
+    width: 1200px;
+    height: 290px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #282828;
+}
+
+.my_wx {
+    position: relative;
+}
+
+.my_ewm {
+    margin-top: -142px;
+    margin-left: -45px;
+    display: none;
+    position: absolute;
+}
+
+.my_wx {
+    padding: 0 20px;
+    background: url(../img/weixin.png) no-repeat;
+}
+
+.my_wx:hover {
+    background: url("../img/weixin2.png") no-repeat;
+}
+
+.my_wx:hover>.my_ewm {
+    display: block;
+}
+
+.my_wb {
+    padding: 0 20px;
+    background: url(../img/weibo.png) no-repeat;
+}
+
+.my_wb:hover {
+    background: url(../img/weibo2.png) no-repeat;
+}
+
+.my_spx {
+    border-bottom: 3px #333 solid;
+}
+
+.my_zb {
+    width: 400px;
+    color: #999999;
+    font-size: 15px;
+}
+
+.my_zb p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.my_zb2 {
+    width: 400px;
+    height: 24px;
+}
+
+.my_yb {
+    width: 400px;
+    font-size: 15px;
+    float: right;
+}
+
+.my_yb a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.my_yb a:hover {
+    color: #ffffff;
+}
+
+.my_bottom {
+    width: 1200px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.my_bottom a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.my_bottom a:hover {
+    color: #f5f5f5;
+}

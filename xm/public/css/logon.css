@@ -1,0 +1,240 @@
+*{margin:0;padding:0;}
+.my_header{
+    min-width:1200px;
+    width:100%;
+    height:58px;
+}
+.user_block{
+    display: block;
+}
+.container{
+    width:1200px;
+    height:625px;
+    margin:0 auto;
+}
+.my_dl{
+    padding-top:100px;
+}
+.user{
+    display:none;
+    position:absolute;
+    top:-50px;
+    font-size:12px;
+    color:red;
+    border:1px solid #d2d2d2;
+    padding:8px 15px;
+    box-shadow: 1px 1px 0 #fff inset, 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background:#fffcc6;
+    z-index:1;
+}
+.user span.arr{
+    position:absolute;
+    display:block;
+    bottom:-20px;
+    border:9px solid transparent;
+    border-top-color:#d2d2d2;
+}
+.user span.arrow{
+    position:absolute;
+    display:block;
+    bottom:-14px;
+    border:7px solid transparent;
+    border-top-color:#fffcc6;
+}
+.user a{
+    position:absolute;
+    right:2px;
+    top:-2px;
+    font-size:14px;
+    color:#a3a3a3;
+    font-weight:700;
+    text-decoration:none;
+    opacity:0.6;
+}
+.user a:hover{
+    color:#000;
+}
+.user2{
+    display:none;
+    position:absolute;
+    top:-50px;
+    font-size:12px;
+    color:red;
+    border:1px solid #d2d2d2;
+    padding:8px 15px;
+    box-shadow: 1px 1px 0 #fff inset, 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background:#fffcc6;
+    z-index:1px;
+}
+.user2 span.arr2{
+    position:absolute;
+    display:block;
+    bottom:-20px;
+    border:9px solid transparent;
+    border-top-color:#d2d2d2;
+}
+.user2 span.arrow2{
+    position:absolute;
+    display:block;
+    bottom:-14px;
+    border:7px solid transparent;
+    border-top-color:#fffcc6;
+}
+.user2 a{
+    position:absolute;
+    right:2px;
+    top:-2px;
+    font-size:14px;
+    color:#a3a3a3;
+    font-weight:700;
+    text-decoration:none;
+    opacity:0.6;
+}
+.user2 a:hover{
+    color:#000;
+}
+.upwd{
+    display:none;
+    position:absolute;
+    top:-50px;
+    font-size:12px;
+    color:red;
+    border:1px solid #d2d2d2;
+    padding:8px 15px;
+    box-shadow: 1px 1px 0 #fff inset, 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background:#fffcc6;
+    z-index:1;
+}
+.upwd span.upwd2{
+    position:absolute;
+    display:block;
+    bottom:-20px;
+    border:9px solid transparent;
+    border-top-color:#d2d2d2;
+}
+.upwd span.upss2{
+    position:absolute;
+    display:block;
+    bottom:-14px;
+    border:7px solid transparent;
+    border-top-color:#fffcc6;
+}
+.upwd a{
+    position:absolute;
+    right:2px;
+    top:-2px;
+    font-size:14px;
+    color:#a3a3a3;
+    font-weight:700;
+    text-decoration:none;
+    opacity:0.6;
+}
+.upwd a:hover{
+    color:#000;
+}
+
+.upwd1{
+    display:none;
+    position:absolute;
+    top:-50px;
+    font-size:12px;
+    color:red;
+    border:1px solid #d2d2d2;
+    padding:8px 15px;
+    box-shadow: 1px 1px 0 #fff inset, 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background:#fffcc6;
+    z-index:1;
+}
+.upwd1 span.upwd3{
+    position:absolute;
+    display:block;
+    bottom:-20px;
+    border:9px solid transparent;
+    border-top-color:#d2d2d2;
+}
+.upwd1 span.upss3{
+    position:absolute;
+    display:block;
+    bottom:-14px;
+    border:7px solid transparent;
+    border-top-color:#fffcc6;
+}
+.upwd1 a{
+    position:absolute;
+    right:2px;
+    top:-2px;
+    font-size:14px;
+    color:#a3a3a3;
+    font-weight:700;
+    text-decoration:none;
+    opacity:0.6;
+}
+.upwd1 a:hover{
+    color:#000;
+}
+.my_border{
+    position:relative;
+    width:256px;
+    height:46px;
+    padding-top:15px;
+    border-bottom:1px solid #e0dada;
+    box-sizing: border-box;
+}
+.my_a2{
+    font-weight: bold;
+    cursor:pointer;
+}
+.icon{
+    cursor:pointer;
+}
+.my_border input{
+    font-size: 14px;
+    border:0 none;
+    outline-width:0;
+}
+.my_a3{
+    width:100%;
+    height:46px;
+    padding-top:15px;
+    border-bottom:1px solid #e0dada;
+    box-sizing: border-box;
+}
+.my_a3 p{
+    height:60px;
+    line-height:60px;
+    font-size:14px;
+    font-weight:bold;
+}
+.my_a3 a{
+    text-decoration:none;
+    float:right;
+    color:#ffc107;
+}
+.submit input{
+    width: 100%;
+    height: 32px;
+    background-color: #fce13d;
+    outline: 0;
+    border: 0;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.register{
+    font-size:14px;
+}
+.register a{
+    color:#ffc107;
+    text-decoration:none;
+}
+.my_for{
+    min-width:1200px;
+    width:100%;
+    background: #282828;
+}
+.my_for2{
+    width:1200px;
+    height:290px;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
